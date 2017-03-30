@@ -1,10 +1,10 @@
 # 《HelloGitHub》第 03 期
->兴趣是最好的老师，[《HelloGitHub》](https://github.com/521xueweihan/HelloGitHub)就是帮你找到兴趣！
+>兴趣是最好的老师，[HelloGitHub](https://github.com/521xueweihan/HelloGitHub) 就是帮你找到兴趣！
 
 ![](/volume01/img/hello-github.jpg)
 
 ---
-**以下为本期内容**｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub)｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上
+｜**以下为本期内容**｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#往期回顾)｜
 
 #### Python 项目
 1、[XX-Net](https://github.com/XX-net/XX-Net)：Python 写的基于免费 GAE，科学上网工具。[中文文档](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)
@@ -42,6 +42,5 @@
 10、[css-creating](https://github.com/cssdream/css-creating)：CSS 创作指南
 
 ---
-
 
 ## END

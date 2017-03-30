@@ -1,10 +1,10 @@
 # 《HelloGitHub》第 04 期
->兴趣是最好的老师，[《HelloGitHub》](https://github.com/521xueweihan/HelloGitHub)就是帮你找到兴趣！
+>兴趣是最好的老师，[HelloGitHub](https://github.com/521xueweihan/HelloGitHub) 就是帮你找到兴趣！
 
 ![](/volume01/img/hello-github.jpg)
 
 ---
-**以下为本期内容**｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub)｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上
+｜**以下为本期内容**｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#往期回顾)｜
 
 #### Python 项目
 1、[python-guide](https://github.com/kennethreitz/python-guide)：[Requests 库](https://github.com/kennethreitz/requests)的作者——kennethreitz，写的 Python 教程，是个指导性教程，不单单是语法层面的，涵盖项目结构、代码风格，进阶、工具等方方面面。虽然是**英文版**([中文翻译版](http://pythonguidecn.readthedocs.io/zh/latest/))，但我这个英语渣都能看懂，你肯定也可以，快去看看吧，开卷有益。[在线阅读](http://docs.python-guide.org/en/latest/)
@@ -47,4 +47,5 @@
 14、[awesome-mac](https://github.com/jaywcjlove/awesome-mac)：排版相当好的一个 awesome 系列文章，文中介绍了很多 Mac 上好用的工具。
 
 ---
+
 ## END

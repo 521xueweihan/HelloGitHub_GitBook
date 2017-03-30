@@ -13,4 +13,5 @@
 * [第 10 期](volume10/HelloGitHub10.md)
 * [第 11 期](volume11/HelloGitHub11.md)
 * [第 12 期](volume12/HelloGitHub12.md)
-
+* [声明](STATEMENT.md)
+* [联系方式](CONTACT.md)
