@@ -26,12 +26,12 @@ print ifconfig("eth0")
 #### Javascript 项目
 5、[react-tetris](https://github.com/chvin/react-tetris)：逼真的俄罗斯方块（非常逼真、强大！），详细的技术介绍，[在线试玩](https://chvin.github.io/react-tetris/?lan=zh)
 
-![](/volume011/img/tetris.gif)
+![](/volume11/img/tetris.gif)
 
 #### Android 项目
 6、[WechatLuckyMoney](https://github.com/veryyoung/WechatLuckyMoney)：微信抢红包插件，基于 Xposed 框架，速度快得冷人发指。为避免过度拉仇恨，请谨慎使用（哈哈哈😄）。
 
-![](/volume011/img/wechatluckymoney.gif)
+![](/volume11/img/wechatluckymoney.gif)
 
 7、[GitClub](https://github.com/TellH/GitClub)：GitClub 不仅仅是一个 GitHub 客户端，还是一个发现优秀 GitHub 开源项目的 App
 
@@ -46,11 +46,11 @@ print ifconfig("eth0")
 - 支持附件和数据库备份
 - 部署简单，不依赖 Tomcat
 
-![](/volume011/img/tale-show-min.png)
+![](/volume11/img/tale-show-min.png)
 
 9、[jvm-mon](https://github.com/ajermakovics/jvm-mon)：命令行模式的 JVM 监控
 
-![](/volume011/img/jvm-show-min.png)
+![](/volume11/img/jvm-show-min.png)
 
 #### C 项目
 10、[wrk](https://github.com/wg/wrk)：现代 HTTP 基准测试（实现对一类测试对象的某项性能指标进行定量的和可对比的测试）工具，使用示例：
@@ -72,7 +72,7 @@ Transfer/sec:    606.33MB
 #### Swift 项目
 11、[Swift30Projects](https://github.com/soapyigu/Swift30Projects)：30 个小型 Swift Apps，可以用来上手学习、练习移动开发。
 
-![](/volume011/img/swift30projects-show-min.jpg)
+![](/volume11/img/swift30projects-show-min.jpg)
 
 #### 开源书籍
 12、[book](https://github.com/qyuhen/book)：雨痕大神写的学习笔记

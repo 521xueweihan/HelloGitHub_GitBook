@@ -9,7 +9,7 @@
 #### Python 项目
 1、[mycli](https://github.com/dbcli/mycli)：mycli 是一个带语法高亮、自动补全的 MySQL 命令行客户端工具。例如，连接数据库方法：`mycli -h localhost -u 用户名 数据库`
 
-![](/volume012/img/mycli.gif)
+![](/volume12/img/mycli.gif)
 
 2、[python-fire](https://github.com/google/python-fire)：Fire 是 Google 开源的 Python 库，可自动将您的代码转变成 CLI，无需您做任何额外工作。您不必定义参数，设置帮助信息，或者编写定义代码运行方式的 main 函数。相反，您只需从 main 模块调用“Fire”函数，其余工作全部交由 Python Fire 来完成。示例代码如下：
 ```python
@@ -56,16 +56,16 @@ Hello Google!
 | F8 | 跳转到响应 header |
 | F9 | 跳转到响应体 |
 
-![](/volume012/img/wuzz.gif)
+![](/volume12/img/wuzz.gif)
 
 4、[sshtron](https://github.com/zachlatta/sshtron)：sshtron 是通过 SSH 运行的多人贪吃蛇游戏，命令行输入：`ssh sshtron.zachlatta.com`，无需安装等待几秒即可进行游戏（因为服务器在国外，很卡😅）
 
-![](/volume012/img/sshtron.gif)
+![](/volume12/img/sshtron.gif)
 
 #### JavaScript 项目
 5、[vue2-elm](https://github.com/bailicangdu/vue2-elm)：基于 vue2 + vuex 构建一个大型单页面应用，此项目大大小小共 45 个页面，涉及注册、登录、商品展示、购物车、下单等等，是一个完整的流程，
 
-![](/volume012/img/vue2-elm-show-min.png)
+![](/volume12/img/vue2-elm-show-min.png)
 
 6、[standard](https://github.com/feross/standard)：统一 JavaScript，只需一种样式，[中文](https://github.com/feross/standard/blob/master/docs/README-zhtw.md)
 
@@ -73,12 +73,12 @@ Hello Google!
 
 8、[octotree](https://github.com/buunguyen/octotree)：为 GitHub 和 GitLab 网站，提供直观地显示项目目录结构的浏览器插件，效果如下：
 
-![](/volume012/img/octotree-show-min.png)
+![](/volume12/img/octotree-show-min.png)
 
 #### C# 项目
 9、[ScreenToGif](https://github.com/NickeManarin/ScreenToGif)：此工具可以记录屏幕的选定区域、网络摄像头的实时图像和绘图板上的实时图像。可以编辑并将动画保存为 GIF 或视频
 
-![](/volume012/img/screen-to-gif-show-min.png)
+![](/volume12/img/screen-to-gif-show-min.png)
 
 #### Android 项目
 10、[fresco](https://github.com/facebook/fresco)：Facebook 开源的 Android 管理图片的库，[中文文档](https://www.fresco-cn.org/docs/index.html)。包含功能如下：
@@ -99,7 +99,7 @@ Hello Google!
 2. 确保脚本的有执行权限，赋予执行权限的命令：`chmod +x script.sh`
 3. 选择 `Refresh all`，刷新使之生效
 
-![](/volume012/img/bitbar-show-min.png)
+![](/volume12/img/bitbar-show-min.png)
 
 #### 开源书籍
 13、[explore-python](https://github.com/ethan-funny/explore-python)：感谢 [ethan-funny](https://github.com/ethan-funny) **编写并推荐** 的《Python 之旅》，该书总结了 Python 相关的知识点，力求深入浅出、条理清晰。
