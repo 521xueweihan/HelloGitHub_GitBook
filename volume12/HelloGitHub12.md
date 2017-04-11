@@ -71,7 +71,7 @@
 ![](/volume12/img/octotree-show-min.png)
 
 #### Objective-C 项目
-10、[bitbar](https://github.com/matryer/bitbar)：Bitbar 是可以将任何（自己或别人写好的）脚本的**输出**到 Mac OS 的状态栏上。同时，支持自定义更新频率。例如：比特币的价格、HelloGitHub 项目的 star 数量（欢迎 star 本项目😄），使用步骤如下：
+10、[bitbar](https://github.com/matryer/bitbar)：Bitbar 是可以将任何（自己或别人写好的）脚本的**输出**到 Mac OS 的状态栏上。同时，支持自定义更新频率。例如：定时获取比特币的价格、HelloGitHub 项目的 star 数量，使用步骤如下：
 
 1. 运行该程序，选择脚本所在目录
 2. 确保脚本的有执行权限，赋予执行权限的命令：`chmod +x script.sh`
@@ -118,7 +118,7 @@ Hello Google!
 16、[algs4](https://github.com/kevin-wayne/algs4)：（英文）算法第四版书中的示例代码（Java）
 
 #### 开源书籍
-17、[explore-python](https://github.com/ethan-funny/explore-python)：感谢 [ethan-funny](https://github.com/ethan-funny) **编写并推荐** 的《Python 之旅》，该书总结了 Python 相关的知识点，力求深入浅出、条理清晰。
+17、[explore-python](https://github.com/ethan-funny/explore-python)：《Python 之旅》，该书总结了 Python 相关的知识点，力求深入浅出、条理清晰。*感谢推荐人：[ethan-funny](https://github.com/ethan-funny)*
 
 18、[The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/Readme.md)：《编程之法：面试和算法心得》
 

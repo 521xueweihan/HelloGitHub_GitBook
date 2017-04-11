@@ -78,7 +78,7 @@ test_first_character()
 10、[12306ForMac](https://github.com/fancymax/12306ForMac)：非官方的 12306 购票，Mac OS 客户端
 
 
-![](/volume06/img/123)
+![](/volume06/img/12306ForMac-show-min.png)
 
 #### 其它
 11、[Apollo-11](https://github.com/chrislgarry/Apollo-11)：阿波罗 11 号代码，[中文介绍](https://github.com/chrislgarry/Apollo-11/blob/master/README.zh_cn.md)
