@@ -39,7 +39,7 @@ gcc -g -O2 testSearcher.c ip2region.c
 9、[packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)：Android 打包工具，支持极速打包，速度奇快
 
 #### JavaScript 项目
-10、[BrowserQuest](https://github.com/mozilla/BrowserQuest)：Mozilla 开源的多人在线角色扮演游戏项目，[在线试玩](http://browserquest.mozilla.org/)
+10、[BrowserQuest](https://github.com/mozilla/BrowserQuest)：Mozilla 开源的多人在线角色扮演游戏项目
 
 
 ![](/volume14/img/browserquest-show-min.png)
