@@ -1,5 +1,5 @@
 # 《HelloGitHub》第 12 期
->兴趣是最好的老师，[HelloGitHub](https://github.com/521xueweihan/HelloGitHub) 就是帮你找到兴趣！
+>兴趣是最好的老师，<a target="\_blank" href="https://hellogithub.com">HelloGitHub</a> 就是帮你找到编程的兴趣！
 
 ![](/volume01/img/hello-github.jpg)
 

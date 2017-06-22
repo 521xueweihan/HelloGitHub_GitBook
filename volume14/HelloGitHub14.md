@@ -1,5 +1,5 @@
 # 《HelloGitHub》第 14 期
->兴趣是最好的老师，[HelloGitHub](https://github.com/521xueweihan/HelloGitHub) 就是帮你找到兴趣！
+>兴趣是最好的老师，<a target="\_blank" href="https://hellogithub.com">HelloGitHub</a> 就是帮你找到编程的兴趣！
 
 ![](/volume01/img/hello-github.jpg)
 
@@ -64,7 +64,7 @@ gcc -g -O2 testSearcher.c ip2region.c
 ![](/volume14/img/nextcloud-show-min.png)
 
 #### Python 项目
-15、[explainshell](https://github.com/idank/explainshell)：一个可以解析 Linux 命令的网站，它可以给出命令的解释和其参数的解释，例如：`ps -aux|grep python`，[在线演示](https://www.explainshell.com/)
+15、[explainshell1](https://github.com/idank/explainshell)：一个可以解析 Linux 命令的网站，它可以给出命令的解释和其参数的解释，例如：`ps -aux|grep python`，[在线演示](https://www.explainshell.com/)
 
 
 ![](/volume14/img/explainshell-show-min.png)
