@@ -4,7 +4,7 @@
 ![](/volume01/img/hello-github.jpg)
 
 ---
-｜**以下为本期内容**｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#往期回顾)｜
+｜**以下为本期内容**｜每个月 28 号发布最新一期｜<a target="\_blank" href="https://github.com/521xueweihan/HelloGitHub#往期回顾">点击查看往期内容</a>｜
 
 #### C 项目
 1、[ip2region](https://github.com/lionsoul2014/ip2region)：IP 到地区的映射库，速度快（毫秒级）、准确性高（99.9%），妈妈再也不用担心我的 IP 地址定位，示例代码：
@@ -44,7 +44,7 @@ gcc -g -O2 testSearcher.c ip2region.c
 
 ![](/volume14/img/browserquest-show-min.png)
 
-11、[Rental](https://github.com/answershuto/Rental)：一款租房 APP，基于 Node.js 爬虫，爬取 58 同城租房信息，并用地图进行可视化展示，方便用户获取周围租房信息，*感谢推荐人：[answershuto](https://github.com/answershuto)*
+11、[Rental](https://github.com/answershuto/Rental)：一款租房 APP，基于 Node.js 爬虫，爬取 58 同城租房信息，并用地图进行可视化展示，方便用户获取周围租房信息
 
 
 ![](/volume14/img/rental-show-min.png)

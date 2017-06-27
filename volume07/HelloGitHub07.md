@@ -4,7 +4,7 @@
 ![](/volume01/img/hello-github.jpg)
 
 ---
-｜**以下为本期内容**｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#往期回顾)｜
+｜**以下为本期内容**｜每个月 28 号发布最新一期｜<a target="\_blank" href="https://github.com/521xueweihan/HelloGitHub#往期回顾">点击查看往期内容</a>｜
 
 #### C 项目
 1、[BaiduPCS](https://github.com/GangZhuo/BaiduPCS)：C 写的百度网盘命令行工具，[在线文档](https://github.com/GangZhuo/BaiduPCS/wiki/BaiduPCS-基本使用)
@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
 ![](/volume07/img/clipboard-show-min.png)
 
 #### Objective-C 项目
-8、[PYPhotoBrowser](https://github.com/iphone5solo/PYPhotoBrowser)：高仿 QQ、微信效果的图片浏览器（支持原图和缩略图、多种手势、CocoaPods），*感谢推荐人：[CoderKo1o](https://github.com/iphone5solo)*
+8、[PYPhotoBrowser](https://github.com/iphone5solo/PYPhotoBrowser)：高仿 QQ、微信效果的图片浏览器（支持原图和缩略图、多种手势、CocoaPods）
 
 #### Python 项目
 9、[httpie](https://github.com/jkbrzt/httpie)：非常好用的命令行 HTTP 客户端，cURL 的替代者，返回的结果支持**高亮**，提高了可读性。用于调试接口、查看服务器返回的 HTTP 协议的信息。[在线文档](https://httpie.org/docs#examples)，下面的是 cURL 和 httpie 的返回结果对比图：
@@ -55,7 +55,7 @@ int main(int argc, char** argv) {
 
 ![](/volume07/img/httpie-show-min.png)
 
-10、[langid](https://github.com/saffsd/langid.py)：用于识别输入文本数据所属的语种，目前支持 97 种语言识别。*感谢推荐人：[zhbzz2007](https://github.com/zhbzz2007)*。示例代码：
+10、[langid](https://github.com/saffsd/langid.py)：用于识别输入文本数据所属的语种，目前支持 97 种语言识别。示例代码：
 ```python
 import langid
 text1 = "I am a coder and love data mining"

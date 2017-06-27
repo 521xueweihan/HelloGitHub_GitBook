@@ -4,7 +4,7 @@
 ![](/volume01/img/hello-github.jpg)
 
 ---
-｜**以下为本期内容**｜每个月 28 号发布最新一期，首发在我的 [GitHub](https://github.com/521xueweihan) 上｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#往期回顾)｜
+｜**以下为本期内容**｜每个月 28 号发布最新一期｜<a target="\_blank" href="https://github.com/521xueweihan/HelloGitHub#往期回顾">点击查看往期内容</a>｜
 
 #### CSS 项目
 1、[typo.css](https://github.com/sofish/typo.css)：中文网页重设与排版，为了一致化浏览器排版效果，构建最适合中文阅读的网页排版。包括桌面和移动平台，[预览](http://typo.sofi.sh/)
