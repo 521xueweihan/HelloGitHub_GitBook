@@ -12,4 +12,4 @@
 
 在浏览、参与这些项目的过程中，你将学习到**更多编程知识**、**提高编程技巧**、**找到编程的乐趣**。
 
-🎉 最后 <a target="\_blank" href="https://hellogithub.com">HelloGitHub</a> 这个项目就诞生了 🎉
+🎉 最后 <a target="\_blank" href="https://hellogithub.com">HelloGitHub.com</a> 这个网站就诞生了 🎉
