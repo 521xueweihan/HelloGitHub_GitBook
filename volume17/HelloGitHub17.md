@@ -1,4 +1,4 @@
-# 《HelloGitHub》第 15 期
+# 《HelloGitHub》第 17 期
 >兴趣是最好的老师，<a target="\_blank" href="https://hellogithub.com">HelloGitHub</a> 就是帮你找到编程的兴趣！
 
 ![](/volume01/img/hello-github.jpg)
@@ -6,121 +6,106 @@
 ---
 ｜**以下为本期内容**｜每个月 28 号发布最新一期｜<a target="\_blank" href="https://github.com/521xueweihan/HelloGitHub#往期回顾">点击查看往期内容</a>｜
 
-#### C++ 项目
-1、[Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版，通过算法实现让小蛇通过吃豆，最后蛇的身体填满整个地图算结束。该项目详细描述实现思想以及相关算法的讨论
+#### C# 项目
+1、[ASTool](https://github.com/asheigithub/ASTool)：NET2.0 实现的 AS3（第三代 Flash 脚本）解释器，可用于嵌入 unity 做热更。一个完整的脚本语言解释执行系统，从语法树分析开始一直到实际执行
 
-![](/volume15/img/snake.gif)
+2、[MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)：谷歌 Material Design 设计风格控件库
+
+![](/volume17/img/MaterialDesignInXamlToolkit-show-min.png)
 
 #### CSS 项目
-2、[MDUI](https://github.com/zdhxiong/mdui)：MDUI 是一套用于开发 Material Design 网页的响应式前端框架。没有任何依赖，支持主题切换，轻量级，低学习成本，[文档](https://www.mdui.org/docs)
+3、[bulma](https://github.com/jgthms/bulma)：UI框架，样式比 Bootstrap 更加扁平化。源码文件结构清晰，通过源码可以学到 UI 框架架构。[使用 bulma 的网站展示](http://bulma.io/expo/)
 
-![](/volume15/img/mdui-show-min.png)
+![](/volume17/img/bulma-show-min.png)
 
 #### Go 项目
-3、[aliyungo](https://github.com/denverdino/aliyungo)：非官方的 Aliyun Go语言 SDK 支持API：ECS, OSS, DNS, SLB, RDS, RAM, MNS, STS, SLS, MQ, Push, OpenSearch, DM, Container Service
+4、[jwt-go](https://github.com/dgrijalva/jwt-go)：Golang 实现 JSON Web Tokens (JWT)
 
-4、[conference](https://github.com/gopherchina/conference)：Go 语言实际项目应用的技术分享
+5、[casbin](https://github.com/casbin/casbin)：访问控制开源库，支持 ACL/RBAC/ABAC 等访问控制模型，支持 MySQL/NoSQL 等存储方式
+
+![](/volume17/img/casbin-show-min.png)
 
 #### Java 项目
-5、[FunGameRefresh](https://github.com/Hitomis/FunGameRefresh)：好玩的下拉刷新控件
+6、[GankMM](https://github.com/maning0303/GankMM)：干货集中营 Android 客户端。每天一张美女图片，一个视频短片，若干Android，iOS等程序干货，周一到周五每天更新，数据全部由 [干货集中营](Gank.io) 提供。项目简单完整，涉及内容全面，利于学习 Android 开发的技巧
 
-![](/volume15/img/FunGameRefresh.gif)
+![](/volume17/img/GankMM.gif)
 
-6、[ProgressManager](https://github.com/JessYanCoding/ProgressManager)：一行代码即可监听 App 中所有网络链接的上传以及下载进度，包括 Glide 的图片加载进度。实现原理类似 EventBus 你可在 App 中的任何地方，将多个监听器以 URL 地址作为标识符，注册到本框架。当此 URL 地址存在下载或者上传的动作时，框架会主动调用所有使用此 URL 地址注册过的监听器，达到多个模块的同步更新
+7、[MVPArms](https://github.com/JessYanCoding/MVPArms)：整合了大量主流开源项目的 Android Mvp 快速搭建框架。包含 Dagger2、Retrofit、Rxjava 等 Rx 系三方库，并且提供 UI 自适应方案，本框架将它们结合起来。文档详尽、成熟稳定的 Android MVP 解决方案
 
-![](/volume15/img/progressManager.gif)
+![](/volume17/img/MVPArms-show-min.png)
+
+8、[elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql)：用 SQL 查询 Elasticsearch
+
+![](/volume17/img/elasticsearch-sql-show-min.png)
 
 #### JavaScript 项目
-7、[veneno](https://github.com/zhuyingda/veneno)：一个基于 Node.js 编写的 web 安全漏洞自动化扫描框架
+9、[gka](https://github.com/gkajs/gka)：简单、高效的帧动画生成工具，图片处理工具。
+- 一键式：图片文件批量序列化重命名，生成帧动画文件，支持预览
+- 性能佳：支持相同帧图片复用✓，图片空白裁剪✓，合图模式✓，图片压缩✓
+- 多模板：内置多种文件输出模板，支持自定义模板
 
-8、[xdomain](https://github.com/jpillora/xdomain)：纯 JavaScript 实现 CROS 的库，[在线示例](http://jpillora.com/xdomain/)
+![](/volume17/img/gka.gif)
 
-9、[font-spider](https://github.com/aui/font-spider)：字蛛是一个智能 WebFont 压缩工具，它能自动分析出页面使用的 WebFont 并进行按需压缩
+10、[sweetalert](https://github.com/t4t5/sweetalert)：纯 JS 写成的 alert 组件，很多公司都在使用的项目。源代码使用了 ES6 进行了重构，使得项目结构更加清晰。可以通过学习其项目结构可以更好的了解 JS 组件的文件结构，分析其源码可以学习如何使用原生 JS 操作 DOM 的高级技巧
 
-![](/volume15/img/font-spider-show-min.png)
+![](/volume17/img/sweetalert.gif)
 
-10、[slick](https://github.com/kenwheeler/slick)：实现了几乎所有效果的轮播图插件，[在线演示](http://kenwheeler.github.io/slick/)
+11、[trust](https://github.com/ncase/trust)：一个合作博弈论的互动讲解手册，[中文版在线试玩](https://www.sekai.co/trust/)
 
-#### Objective-C 项目
-11、[spectacle](https://github.com/eczarny/spectacle)：OS X 系统下的窗口管理工具，通过快捷键方便、快捷的调整窗口大小和位置
+![](/volume17/img/trust-show-min.png)
 
-![](/volume15/img/spectacle-show-min.jpg)
+12、[wtfjs](https://github.com/denysdovhan/wtfjs)：JavaScript 有趣和棘手（坑爹？）的示例
 
-12、[FLEX](https://github.com/Flipboard/FLEX)：用于 iOS 开发的一组应用内调试工具，功能强大且多，多到不一一列举了
+13、[parrot-mocker-web](https://github.com/chinesedfan/parrot-mocker-web)：小巧的 mock 服务器，配合 Chrome 插件可以轻松地拦截或 mock 页面上的 xhr/jsonp/fetch 请求。不需要侵入页面本身代码，让前端同学在后端接口没有 ready 或者难以模拟数据的时候，继续开心地开发玩耍
 
+![](/volume17/img/parrot-mocker-web-show-min.png)
 
-![](/volume15/img/flex.gif)
+#### Kotlin 项目
+14、[Eyepetizer-in-Kotlin](https://github.com/LRH1993/Eyepetizer-in-Kotlin)：一款使用 kotlin 语言开发的 App。适合初学者作为学习 kotlin 语言的一个项目，可以在做项目的同时体验到 kotlin 语言的优点
+
+![](/volume17/img/Eyepetizer-in-Kotlin-show-min.png)
 
 #### Python 项目
-13、[musicbox](https://github.com/darknessomi/musicbox)：基于 Python 编写的网易云音乐**命令行**版本，使用起来简单优雅，能够快速安装及使用
+15、[huey](https://github.com/coleifer/huey)：结合 redis 实现的轻量任务队列，但是支持功能还是很多的：
+- 多进程、多线程、协程
+- 任务定时执行
+- 任务执行失败重试
+- 结果存储
 
-![](/volume15/img/musicbox.gif)
+16、[simiki](https://github.com/tankywoo/simiki)：一个简单的个人 Wiki 框架，便于快速搭建 Wiki 页。使用 Markdown 书写 Wiki, 生成静态 HTML 页面。Wiki 源文件按目录分类存放, 方便管理维护。[中文文档](http://simiki.org/zh-docs/)
 
-14、[django-blog-tutorial](https://github.com/zmrenwu/django-blog-tutorial)：基于最新版 Django 1.10 和 Python 3.5，通过 26 篇教程一步步带你使用 Django 从零开发一个个人博客系统，在实践的同时掌握 Django 的开发技巧，[完成效果展示](http://demo.zmrenwu.com/)
+17、[pyecharts](https://github.com/chenjiandongx/pyecharts)：Echarts+Python 实现的一个用于生成 Echarts 图表的类库
 
-15、[aredis](https://github.com/NoneGG/aredis)：一款基于 Python3 asyncio 的异步 redis 客户端，支持对于单实例，连接池， 哨兵以及集群。[作者](https://github.com/NoneGG)希望可以找到志同道合的小伙伴集思广益，一起维护、优化。示例代码如下：
-```Python
-   >>> import asyncio
-   >>> from aredis import StrictRedis
-   >>>
-   >>> async def example():
-   >>>      client = StrictRedis(host='127.0.0.1', port=6379, db=0)
-   >>>      await client.flushdb()
-   >>>      await client.set('foo', 1)
-   >>>      assert await client.exists('foo') is True
-   >>>      await client.incr('foo', 100)
-   >>>
-   >>>      assert int(await client.get('foo')) == 101
-   >>>      await client.expire('foo', 1)
-   >>>      await asyncio.sleep(0.1)
-   >>>      await client.ttl('foo')
-   >>>      await asyncio.sleep(1)
-   >>>      assert not await client.exists('foo')
-   >>>
-   >>> loop = asyncio.get_event_loop()
-   >>> loop.run_until_complete(example())
-```
+![](/volume17/img/pyecharts.gif)
 
-16、[freezegun](https://github.com/spulec/freezegun)：时间漫步模块，模拟到某一个时间，使用简单方式多样，实现了装饰器、上下文等调用方式。示例代码如下：
-```python
-from freezegun import freeze_time
-import datetime
-import unittest
+18、[proxy_pool](https://github.com/jhao104/proxy_pool)：基于 Python 的自建代理 IP 池服务，通过网络爬虫抓取互联网上免费的代理 IP，本地校验、剔除失效的代理IP，从而实现高可用的代理 IP 池。最后使用 Flask 搭建提供代理 IP 服务，包括代理池刷新、无效代理删除、代理获取等。该项目设计文档详细、模块结构简明易懂，同时适合爬虫新手更好的学习爬虫技术
 
+![](/volume17/img/proxy_pool-show-min.png)
 
-@freeze_time("2012-01-14")
-def test():
-    assert datetime.datetime.now() == datetime.datetime(2012, 1, 14)
+19、[WeiboSpider](https://github.com/ResolveWang/WeiboSpider)：分布式微博爬虫，支持快速抓取和稳定抓取两种运行模式。项目模块逻辑清晰、注释丰富、便于定制化自己的需求。同时，对于小白用户，可以通过演示视频快速入门，也提供QQ群答疑，已经持续维护一年多。靠谱的项目，小伙伴们要赶快上车～
 
-```
-
-#### Ruby 项目
-17、[mastodon](https://github.com/tootsuite/mastodon)：基于 Ruby 语言的社交网站服务器端所有的源代码，通过这个项目，你可以自己部署一个属于自己的社交网站
-
-![](/volume15/img/mastodon-show-min.jpeg)
+![](/volume17/img/WeiboSpider-show-min.png)
 
 #### 其它
-18、[vim-galore-zh_cn](https://github.com/wsdjeg/vim-galore-zh_cn)：Vim 从入门到精通
+20、[Material-Design-Chinese](https://github.com/zdhxiong/Material-Design-Chinese)：Material Design 官方文档的中文翻译，保留了原版网站的样式，并保持和官方文档同步更新
 
-19、[Spacemacs-rocks](https://github.com/emacs-china/Spacemacs-rocks)：用 21 天学习 Emacs 以及 Spacemacs（Emacs 的配置文件）的使用
+21、[sec-chart](https://github.com/SecWiki/sec-chart)：安全思维导图集合
 
-20、[SpaceVim](https://github.com/SpaceVim/SpaceVim)：一个社区驱动的模块化 vim/neovim 配置集合，其中包含了多种功能模块，并且针对 neovim 做了功能优化。spacevim 有多种功能模块可供选择，支持多种语言。用户只需要选择需要的模块，就可以配置出一个适合自己的开发环境
+22、[learn-regex](https://github.com/zeeshanu/learn-regex)：易学的正则表达式教程，[中文](https://github.com/zeeshanu/learn-regex/blob/master/README-cn.md)
 
-![](/volume15/img/spacevim-show-min.png)
+23、[games](https://github.com/leereilly/games)：GitHub 上游戏项目的合集
 
-21、[english-level-up-tips-for-Chinese](https://github.com/byoungd/english-level-up-tips-for-Chinese)：如何提高英语技能
-
-22、[ch](https://github.com/xnum/ch)：类似 virtualenv，可以在 Linux 下建立虛拟的 home 目录並切换，以管理不同工作或项目的文件
-
-![](/volume15/img/ch.gif)
+24、[PythonSpiderNotes](https://github.com/lining0806/PythonSpiderNotes)：Python 爬虫入门教程
 
 #### 开源书籍
-23、[redis](https://github.com/huangz1990/redis)：《Redis Command Reference》全文的中文翻译版，[在线阅读](http://redisdoc.com/)
+25、[pandas-cookbook](https://github.com/jvns/pandas-cookbook)：pandas cookbook（英文）
 
+26、[tensorflow_cookbook](https://github.com/nfmcclure/tensorflow_cookbook)：Tensorflow cookbook（英文）
 
-24、[es6tutorial](https://github.com/ruanyf/es6tutorial)：阮一峰老师的开源精品，ECMAScript 6 入门书籍，[在线阅读](http://es6.ruanyifeng.com/)
+#### 机器学习
+27、[TensorFlow-World](https://github.com/astorfi/TensorFlow-World)：简单易用的 TensorFlow 教程
 
-
+28、[EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow)：TensorFlow 最佳实践
 
 
 
