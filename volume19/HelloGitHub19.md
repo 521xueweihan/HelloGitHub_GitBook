@@ -1,4 +1,4 @@
-# 《HelloGitHub》第 17 期
+# 《HelloGitHub》第 19 期
 >兴趣是最好的老师，<a target="\_blank" href="https://hellogithub.com">HelloGitHub</a> 就是帮你找到编程的兴趣！
 
 ![](/volume01/img/hello-github.jpg)
@@ -6,106 +6,135 @@
 ---
 ｜**以下为本期内容**｜每个月 28 号发布最新一期｜<a target="\_blank" href="https://github.com/521xueweihan/HelloGitHub#往期回顾">点击查看往期内容</a>｜
 
-#### C# 项目
-1、[ASTool](https://github.com/asheigithub/ASTool)：NET2.0 实现的 AS3（第三代 Flash 脚本）解释器，可用于嵌入 unity 做热更。一个完整的脚本语言解释执行系统，从语法树分析开始一直到实际执行
-
-2、[MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)：谷歌 Material Design 设计风格控件库
-
-![](/volume17/img/MaterialDesignInXamlToolkit-show-min.png)
-
-#### CSS 项目
-3、[bulma](https://github.com/jgthms/bulma)：UI框架，样式比 Bootstrap 更加扁平化。源码文件结构清晰，通过源码可以学到 UI 框架架构。[使用 bulma 的网站展示](http://bulma.io/expo/)
-
-![](/volume17/img/bulma-show-min.png)
-
 #### Go 项目
-4、[jwt-go](https://github.com/dgrijalva/jwt-go)：Golang 实现 JSON Web Tokens (JWT)
+1、[ctop](https://github.com/bcicen/ctop)：实现了类 top 命令展示效果的 docker 容器监控工具
 
-5、[casbin](https://github.com/casbin/casbin)：访问控制开源库，支持 ACL/RBAC/ABAC 等访问控制模型，支持 MySQL/NoSQL 等存储方式
-
-![](/volume17/img/casbin-show-min.png)
+![](/volume19/img/ctop.gif)
 
 #### Java 项目
-6、[GankMM](https://github.com/maning0303/GankMM)：干货集中营 Android 客户端。每天一张美女图片，一个视频短片，若干Android，iOS等程序干货，周一到周五每天更新，数据全部由 [干货集中营](Gank.io) 提供。项目简单完整，涉及内容全面，利于学习 Android 开发的技巧
+2、[MVPArt](https://github.com/JessYanCoding/MVPArt)：一个新的 MVP 架构，此框架旨在解决传统 MVP 类和接口太多、并且 Presenter 和 View 通过接口通信过于繁琐、重用 Presenter 代价太大等问题。架构图如下：
 
-![](/volume17/img/GankMM.gif)
+![](/volume19/img/MVPArt-show-min.png)
 
-7、[MVPArms](https://github.com/JessYanCoding/MVPArms)：整合了大量主流开源项目的 Android Mvp 快速搭建框架。包含 Dagger2、Retrofit、Rxjava 等 Rx 系三方库，并且提供 UI 自适应方案，本框架将它们结合起来。文档详尽、成熟稳定的 Android MVP 解决方案
+3、[p3c](https://github.com/alibaba/p3c)：阿里云栖大会发布的 Java 代码规约扫描插件，支持多种 IDE。代码规范对于编程来说是非常重要的，随着代码量的增多会更加意识到其重要性。赶快拿去使用吧，[阿里巴巴 Java 开发手册](https://github.com/alibaba/p3c/blob/master/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E7%BB%88%E6%9E%81%E7%89%88%EF%BC%89.pdf)
 
-![](/volume17/img/MVPArms-show-min.png)
-
-8、[elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql)：用 SQL 查询 Elasticsearch
-
-![](/volume17/img/elasticsearch-sql-show-min.png)
+4、[HanLP](https://github.com/hankcs/HanLP)：汉语处理包，目标是普及自然语言处理在生产环境中的应用。特点：功能完善、性能高效、架构清晰、语料时新、可自定义
 
 #### JavaScript 项目
-9、[gka](https://github.com/gkajs/gka)：简单、高效的帧动画生成工具，图片处理工具。
-- 一键式：图片文件批量序列化重命名，生成帧动画文件，支持预览
-- 性能佳：支持相同帧图片复用✓，图片空白裁剪✓，合图模式✓，图片压缩✓
-- 多模板：内置多种文件输出模板，支持自定义模板
+5、[wxapp-market](https://github.com/o2team/wxapp-market)：小程序营销组件，使用简单、方式齐全。包含示例代码，玩法多样
+- 大转盘
+- 刮刮乐
+- 老虎机
+- 水果机
+- ...
 
-![](/volume17/img/gka.gif)
+![](/volume19/img/wxapp-market.gif)
 
-10、[sweetalert](https://github.com/t4t5/sweetalert)：纯 JS 写成的 alert 组件，很多公司都在使用的项目。源代码使用了 ES6 进行了重构，使得项目结构更加清晰。可以通过学习其项目结构可以更好的了解 JS 组件的文件结构，分析其源码可以学习如何使用原生 JS 操作 DOM 的高级技巧
+6、[SelectMenu](https://github.com/TerryZ/SelectMenu)：基于 jQuery 1.x 库的多样化的下拉菜单插件，源码具有中文注释，对于学习 jQuery 插件有帮助。示例代码如下：
+```javascript
+var data = [
+    {id:1 ,name:'Chicago Bulls',desc:'芝加哥公牛'},
+    {id:2 ,name:'Cleveland Cavaliers',desc:'克里夫兰骑士'},
+    {id:3 ,name:'Detroit Pistons',desc:'底特律活塞'},
+    {id:4 ,name:'Indiana Pacers',desc:'印第安纳步行者'}
+];
+//initialize selectmenu
+$('#btnDemo').selectMenu({
+    showField : 'desc',
+    keyField : 'id',
+    data : data
+});
+```
 
-![](/volume17/img/sweetalert.gif)
+![](/volume19/img/SelectMenu-show-min.png)
 
-11、[trust](https://github.com/ncase/trust)：一个合作博弈论的互动讲解手册，[中文版在线试玩](https://www.sekai.co/trust/)
+7、[project-guidelines](https://github.com/wearehive/project-guidelines)：JavaScript 项目规范，[中文](https://github.com/wearehive/project-guidelines/blob/master/README-zh.md)
 
-![](/volume17/img/trust-show-min.png)
+8、[emoji](https://github.com/gee1k/emoji)：方便快速查找获取 emoji 表情、名称，并且可以复制到任何文本中，另外支持中文搜索 💯 [网站地址](http://emoji.svend.cc/)
 
-12、[wtfjs](https://github.com/denysdovhan/wtfjs)：JavaScript 有趣和棘手（坑爹？）的示例
+![](/volume19/img/emoji.gif)
 
-13、[parrot-mocker-web](https://github.com/chinesedfan/parrot-mocker-web)：小巧的 mock 服务器，配合 Chrome 插件可以轻松地拦截或 mock 页面上的 xhr/jsonp/fetch 请求。不需要侵入页面本身代码，让前端同学在后端接口没有 ready 或者难以模拟数据的时候，继续开心地开发玩耍
+9、[H5](https://github.com/answershuto/H5)：这是作者的个人项目，功能是可视化编辑、生成手机 H5 页面的单页应用 WebApp。该项目是一个全栈项目，具有前后端完整服务。并且项目结构清晰。后端服务具有控制器，模型，路由，前端服务具有组件，并且使用 Vuex 做状态管理，麻雀虽小五脏俱全
 
-![](/volume17/img/parrot-mocker-web-show-min.png)
+![](/volume19/img/H5.gif)
+
+10、[micro-note](https://github.com/linguowei/micro-note)：目前的前端圈使用最多的莫过于 Vue 以及 React，而 Angular 使用相比前两个就会少一点，而 Angular 也因为过于强大，导致学习曲线陡峭涉及概念繁多等问题。该项目（徽记）是基于 Angular4 以及 Typescript 开发，项目中都是 Angular4 基础使用，适合新手入门、学习、动手实践
+
+![](/volume19/img/micro-note-show-min.png)
 
 #### Kotlin 项目
-14、[Eyepetizer-in-Kotlin](https://github.com/LRH1993/Eyepetizer-in-Kotlin)：一款使用 kotlin 语言开发的 App。适合初学者作为学习 kotlin 语言的一个项目，可以在做项目的同时体验到 kotlin 语言的优点
+11、[kotlin-examples](https://github.com/JetBrains/kotlin-examples)：JetBrains 开源的 Kotlin 语言 Web 示例项目
 
-![](/volume17/img/Eyepetizer-in-Kotlin-show-min.png)
+#### Objective-C 项目
+12、[BulletAnalyzer](https://github.com/syik/BulletAnalyzer)：斗鱼弹幕分析工具，功能包含：语义近似度合并、CG/CA 图表数据绘制、Socket 链接数
+
+![](/volume19/img/BulletAnalyzer-show-min.png)
+
+#### PHP 项目
+13、[Biny](https://github.com/Tencent/Biny)：腾讯开源的一款高性能的超轻量级PHP框架，用于快速开发现代 Web 应用程序。代码简洁优雅，对应用层，数据层，模板渲染层的封装简单易懂，能够快速上手使用，[文档](http://www.billge.cc/)齐全。高性能，框架响应时间在 1ms 以内，单机 qps 轻松上3000。
+- 支持跨库连表，条件复合筛选，查询PK缓存等
+- 同步异步请求分离，类的自动化加载管理
+- 支持Form表单验证，支持事件触发机制
+- 支持浏览器端调试，快速定位程序问题和性能瓶颈
+- 具有sql防注入，html自动防xss等特性
 
 #### Python 项目
-15、[huey](https://github.com/coleifer/huey)：结合 redis 实现的轻量任务队列，但是支持功能还是很多的：
-- 多进程、多线程、协程
-- 任务定时执行
-- 任务执行失败重试
-- 结果存储
+14、[binlog2sql](https://github.com/danfengcao/binlog2sql)：从 MySQL binlog 解析出你要的 SQL。根据不同选项，提供如下功能
+- 数据快速回滚，[闪回原理与实践](https://github.com/danfengcao/binlog2sql/blob/master/example/mysql-flashback-priciple-and-practice.md)
+- 主从切换后新 master 丢数据的修复
+- 从 binlog 生成标准SQL，带来的衍生功能
 
-16、[simiki](https://github.com/tankywoo/simiki)：一个简单的个人 Wiki 框架，便于快速搭建 Wiki 页。使用 Markdown 书写 Wiki, 生成静态 HTML 页面。Wiki 源文件按目录分类存放, 方便管理维护。[中文文档](http://simiki.org/zh-docs/)
+15、[pandas-tutorial](https://github.com/hangsz/pandas-tutorial)：这套 pandas 教程包含从初级到进阶的内容，适合初学者和希望进阶建立知识体系的数据科学从业者阅读。作者还在持续更新高级内容，你值得拥有
 
-17、[pyecharts](https://github.com/chenjiandongx/pyecharts)：Echarts+Python 实现的一个用于生成 Echarts 图表的类库
+16、[pysheeet](https://github.com/crazyguitar/pysheeet)：Python 速查表，[在线阅读](https://www.pythonsheets.com/)
 
-![](/volume17/img/pyecharts.gif)
+17、[robobrowser](https://github.com/jmcarp/robobrowser)：提供多种模拟操作网页的库，比如获得网页内容、访问链接、点击按钮、填充并提交表单、上传文件。使用简单、API 友好。适用于想要通过脚本流程化操作，某些未提供这些操作接口的场景，示例代码如下：
+```python
+# 上传文件
+from robobrowser import RoboBrowser
 
-18、[proxy_pool](https://github.com/jhao104/proxy_pool)：基于 Python 的自建代理 IP 池服务，通过网络爬虫抓取互联网上免费的代理 IP，本地校验、剔除失效的代理IP，从而实现高可用的代理 IP 池。最后使用 Flask 搭建提供代理 IP 服务，包括代理池刷新、无效代理删除、代理获取等。该项目设计文档详细、模块结构简明易懂，同时适合爬虫新手更好的学习爬虫技术
+# Browse to a page with an upload form
+browser = RoboBrowser()
+browser.open('http://cgi-lib.berkeley.edu/ex/fup.html')
 
-![](/volume17/img/proxy_pool-show-min.png)
+# Find the form
+upload_form = browser.get_form()
+upload_form                     # <RoboForm upfile=, note=>
 
-19、[WeiboSpider](https://github.com/ResolveWang/WeiboSpider)：分布式微博爬虫，支持快速抓取和稳定抓取两种运行模式。项目模块逻辑清晰、注释丰富、便于定制化自己的需求。同时，对于小白用户，可以通过演示视频快速入门，也提供QQ群答疑，已经持续维护一年多。靠谱的项目，小伙伴们要赶快上车～
+# Choose a file to upload
+upload_form['upfile']           # <robobrowser.forms.fields.FileInput...>
+upload_form['upfile'].value = open('path/to/file.txt', 'r')
 
-![](/volume17/img/WeiboSpider-show-min.png)
+# Submit
+browser.submit(upload_form)
+```
+
+18、[ItChat](https://github.com/littlecodersh/ItChat)：开源的微信个人号SDK，提供了丰富的功能。从而使得 Python 调用微信、发送消息、传输文件等操作只需要编写极少的代码，示例代码如下：
+```python
+import itchat
+
+itchat.auto_login()
+
+itchat.send('Hello, filehelper', toUserName='filehelper')
+```
 
 #### 其它
-20、[Material-Design-Chinese](https://github.com/zdhxiong/Material-Design-Chinese)：Material Design 官方文档的中文翻译，保留了原版网站的样式，并保持和官方文档同步更新
+19、[Amazing-Windows-Apps](https://github.com/AmazingApps/Amazing-Windows-Apps)：该项目收录了众多 Windows 绝妙的项目、工具。这些软件都是经过测试，安全、免费、好用，[在线阅读](https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/)
 
-21、[sec-chart](https://github.com/SecWiki/sec-chart)：安全思维导图集合
+20、[remote-working](https://github.com/greatghoul/remote-working)：收集整理国内远程工作相关的项目
 
-22、[learn-regex](https://github.com/zeeshanu/learn-regex)：易学的正则表达式教程，[中文](https://github.com/zeeshanu/learn-regex/blob/master/README-cn.md)
+21、[ios-dev-flow](https://github.com/leecade/ios-dev-flow)：iOS 开发流程，记录了 iOS 程序上架需要的方方面面
 
-23、[games](https://github.com/leereilly/games)：GitHub 上游戏项目的合集
+22、[Awesome_APIs](https://github.com/TonnyL/Awesome_APIs)：第三方 API 集合，包含：国内、国外、官方、非官方
 
-24、[PythonSpiderNotes](https://github.com/lining0806/PythonSpiderNotes)：Python 爬虫入门教程
+23、[chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)：中华古典文集数据集，以 json 文件方式存储。[爬取过程及分析](https://jackeygao.io/words/crawl-ci.html)
 
 #### 开源书籍
-25、[pandas-cookbook](https://github.com/jvns/pandas-cookbook)：pandas cookbook（英文）
+24、[kubernetes-handbook](https://github.com/rootsongjc/kubernetes-handbook)：Kubernetes 中文指南／实践手册，[在线阅读](https://jimmysong.io/kubernetes-handbook/)
 
-26、[tensorflow_cookbook](https://github.com/nfmcclure/tensorflow_cookbook)：Tensorflow cookbook（英文）
+25、[op_practice_book](https://github.com/BillWang139967/op_practice_book)：《运维实践指南》
 
-#### 机器学习
-27、[TensorFlow-World](https://github.com/astorfi/TensorFlow-World)：简单易用的 TensorFlow 教程
-
-28、[EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow)：TensorFlow 最佳实践
+26、[microservices-from-design-to-deployment-chinese](https://github.com/oopsguy/microservices-from-design-to-deployment-chinese)：《微服务：从设计到部署》中文版，[在线阅读](http://oopsguy.com/books/microservices/index.html)
 
 
 
